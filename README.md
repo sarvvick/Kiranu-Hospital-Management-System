@@ -25,4 +25,4 @@ pip install -r requirements.txt
 1. Navigate to the `backend/` directory.
 2. Install dependencies:
 
-#P.S. There are some leftover pages that are not part of the main site. You can use it if you want to add more features.
+# P.S. There are some leftover pages that are not part of the main site. You can use it if you want to add more features.
