@@ -1,0 +1,166 @@
+body {
+  background: #f7fff7;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: #27ae60;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-buttons button {
+  margin-left: 10px;
+  padding: 8px 12px;
+  background: #219150;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-buttons button:hover {
+  background: #2ecc71;
+}
+
+.container {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(39,174,96,0.08);
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 500px;
+}
+
+.content {
+  padding: 20px;
+}
+
+h1, h3, h4 {
+  color: #219150;
+  margin-bottom: 1rem;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+input, select, textarea, button {
+  margin-bottom: 1rem;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #b2bec3;
+  font-size: 1rem;
+}
+
+button {
+  background: #27ae60;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #2ecc71;
+}
+
+.btn-success {
+  background: #27ae60;
+}
+
+.btn-success:hover {
+  background: #2ecc71;
+}
+
+.btn-secondary {
+  background: #b2bec3;
+  color: #219150;
+}
+
+.btn-secondary:hover {
+  background: #dfffe0;
+  color: #27ae60;
+}
+
+a {
+  color: #27ae60;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background: white;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.login-container {
+  max-width: 300px;
+  margin: 100px auto;
+  padding: 30px;
+  background: white;
+  text-align: center;
+  border: 1px solid #b2bec3;
+  border-radius: 8px;
+}
+
+.login-container input {
+  width: 90%;
+  margin: 10px 0;
+}
+
+.login-container button {
+  width: 100%;
+}
+
+.appointment-form, .doctor-form, .patient-form {
+  background: #eafbe7;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 4px rgba(39,174,96,0.05);
+}
+
+.appointment-form label, .doctor-form label, .patient-form label {
+  font-weight: 500;
+  color: #219150;
+}
+
+.appointment-form select, .doctor-form select, .patient-form select {
+  background: #dfffe0;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem;
+    max-width: 95vw;
+  }
+  input, select, textarea, button {
+    font-size: 0.95rem;
+  }
+  .appointment-form, .doctor-form, .patient-form {
+    padding: 1rem;
+  }
+}
